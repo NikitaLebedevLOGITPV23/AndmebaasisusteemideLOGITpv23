@@ -1,1 +1,7 @@
+Andmed ja informatsioon
+Andmed - see on tõõdeldud informatsioon
+Haldus - администрирование/обслуживание
+Andmebaaside haldussüsteemid - системы администрирования БД - программы для работы с БД - MS SQL server, Oracle, mariaDB/phpMyadmin, Access.
 
+
+-------------------------------------------------------------------------------------------------
