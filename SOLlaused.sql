@@ -24,3 +24,21 @@ SELECT * FROM inimene;
 
 --tabeli kustutamine
 DROP table inimene;
+
+--andmete lisamine
+--DDL - data definition language
+--DML - data manipulation language
+
+INSERT INTO inimene
+(nimi, synniaeg, telefon, pikkus, opilaskodu)
+VALUES
+('Peter Uus', '2021-12-30', '2568952', 90.5, 0),
+('Kaarel Oja', '2021-12-30', '2568952', 90.5, 0),
+('Kask Mati', '2012-2-12', '2568952', 160.2, 0),
+('Peeter oja', '2013-12-30', '6844242', 172.5, 0)
+;
+
+SELECT * FROM inimene;
+--kustuta id=2
+DELETE FROM inimene
+WHERE inimeneID=2;
