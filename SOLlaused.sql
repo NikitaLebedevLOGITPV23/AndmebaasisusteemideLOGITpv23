@@ -12,7 +12,7 @@ USE lebedevLOGITpv23;
 --tabeli loomine
 --AUTO_INCREMENT - ise täidab tabeli 1,2,3...
 CREATE TABLE inimene(
-inimeneID int Primary Key identity(1,1),
+inimeneID int Primary Key AUTO_INCREMENT,
 nimi varchar(50) unique,
 synniaeg date,
 telefon char(12),
