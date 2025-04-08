@@ -66,8 +66,6 @@ references elukoht(elukohtID);
 
 SELECT * FROM inimene;
 SELECT * FROM elukoht;
-
------------------------------------------------------------------------------------------
 INSERT INTO inimene
 (nimi, synniaeg, telefon, pikkus, opilaskodu, elukohtID)
 VALUES
@@ -80,7 +78,7 @@ ON inimene.elukohtID=elukoht.elukohtID;
 SELECT i.nimi, i.synniaeg, e.elukoht
 FROM inimene i join elukoht e
 ON i.elukohtID=e.elukohtID;
-
+-----------------------------------------------------------------------------------------
 
 --tabel auto loomine
 CREATE TABLE auto(
