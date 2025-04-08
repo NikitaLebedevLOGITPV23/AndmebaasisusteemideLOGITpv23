@@ -14,3 +14,4 @@ Näited: telefoninumber, nimi, nimetus, isikukood, aadress
 определяет набор значений из другой таблицы
 5. CHECK - CHECK(naine, mees) -  определяет набор значений из скобок
 
+![image](https://github.com/user-attachments/assets/20995fd1-6389-49ce-a79b-54f0e3754dda)
