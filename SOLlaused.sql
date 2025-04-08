@@ -1,11 +1,10 @@
 --kommentaar
---SQL SERVER Managment Stuudio
+--Xampp control panel
 --Conect TO:
---Server Name: (localdb)\mssqllocaldb
--- Authentification 2 tüüpi:
---1. Windows Auth - localdb admini õigused
---2. SQL Server Auth - kontrollida varem tehtud kasutajad
-
+--Server Name: localhost 127.0.0.1
+-- Authentification 
+-- Kasutaja: root
+-- Parool: ei ole
 
 CREATE DATABASE lebedevLOGITpv23;
 USE lebedevLOGITpv23;
